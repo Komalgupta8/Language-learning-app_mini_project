@@ -1,0 +1,20 @@
+/* NotFound.css */
+.not-found {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .not-found h1 {
+    font-size: 48px;
+    color: #dc3545; /* Bootstrap danger color */
+  }
+  
+  .not-found p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .not-found .btn {
+    padding: 10px 20px;
+  }
+  

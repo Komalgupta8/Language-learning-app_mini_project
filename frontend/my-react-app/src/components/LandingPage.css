@@ -1,0 +1,45 @@
+.landing-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.lead {
+  color: #6c757d;
+}
+
+.languages .language-option {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #e9ecef;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.languages .language-option:hover {
+  transform: scale(1.1);
+  background-color: #d4dfe6;
+}
+
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+button.mx-2 {
+  min-width: 200px;
+}

@@ -1,0 +1,48 @@
+.landing-page {
+    background: #f8f9fa;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .home-card {
+    height: 100%;
+    border-radius: 10px; /* Rounded corners for cards */
+    transition: transform 0.2s;
+    padding: 20px; /* Add padding for a more spacious look */
+  }
+  
+  .home-card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  .start-lesson-btn {
+    font-size: 1.2rem; /* Larger font size for button */
+    height: 100%; /* Fill the column height */
+  }
+  
+  .progress {
+    height: 30px; /* Increase height of the progress bar */
+  }
+  
+  .card {
+    border: none; /* Remove card border */
+  }
+  
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  section {
+    margin-top: 40px; /* Space between sections */
+  }
+  
+  h2 {
+    font-size: 2rem; /* Increase heading size */
+  }
+  
+  p {
+    font-size: 1.1rem; /* Increase paragraph size for better readability */
+  }
+  
