@@ -4,10 +4,23 @@ import axios from 'axios';
 const LeaderboardPage = () => {
   const [leaderboard, setLeaderboard] = useState([]);
 
+  // Manually define some leaderboard data for testing
+  const manualLeaderboardData = [
+    { _id: '1', name: 'Alice', xp: 500 },
+    { _id: '2', name: 'Bob', xp: 450 },
+    { _id: '3', name: 'Charlie', xp: 400 },
+    { _id: '4', name: 'David', xp: 350 },
+    { _id: '5', name: 'Eve', xp: 300 },
+  ];
+
   useEffect(() => {
-    axios.get('http://localhost:5000/leaderboard')
-      .then(response => setLeaderboard(response.data))
-      .catch(error => console.error(error));
+    // Fetch leaderboard data from backend (uncomment this if you want to fetch from the backend)
+    // axios.get('http://localhost:5000/leaderboard')
+    //   .then(response => setLeaderboard(response.data))
+    //   .catch(error => console.error(error));
+
+    // Use manually defined data for now
+    setLeaderboard(manualLeaderboardData);
   }, []);
 
   return (

@@ -113,7 +113,7 @@ const HomePage = () => {
             <div className="card text-white bg-primary mb-3 home-card">
               <div className="card-body text-center">
                 <h5 className="card-title">Lessons Completed</h5>
-                <p className="card-text">12 lessons completed</p>
+                <p className="card-text">0 lessons completed</p>
               </div>
             </div>
           </Col>
@@ -121,7 +121,7 @@ const HomePage = () => {
             <div className="card text-white bg-danger mb-3 home-card">
               <div className="card-body text-center">
                 <h5 className="card-title">Languages Learned</h5>
-                <p className="card-text">2 languages</p>
+                <p className="card-text">0 languages</p>
               </div>
             </div>
           </Col>
@@ -129,9 +129,9 @@ const HomePage = () => {
             <Button 
               variant="outline-success" 
               className="w-100 py-4 start-lesson-btn" 
-              onClick={() => navigate('/lessons')} // Redirect to the lessons page
+              onClick={() => navigate('/courses')} // Redirect to the lessons page
             >
-              Start New Lesson
+              Start New Course
             </Button>
           </Col>
         </Row>

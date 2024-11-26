@@ -1,9 +1,8 @@
-from pymongo import MongoClient
-
-# Replace the URI with your MongoDB URI
-MONGO_URI = "mongodb://localhost:27017"
-client = MongoClient(MONGO_URI)
-db = client.language_learning_app
+from flask_pymongo import PyMongo
+from flask import Flask
 
 def get_db():
-    return db
+    app = Flask(__name__)
+    app.config["MONGO_URI"] = "mongodb://localhost:27017/coursesdb"  # Mongo URI
+    mongo = PyMongo(app)
+    return mongo.db
