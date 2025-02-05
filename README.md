@@ -9,3 +9,5 @@ This is a language learning app built using React, Bootstrap, Python Flask, and 
 - User Profile Page with XP, badges, and achievements
 - Leaderboard with top-ranked users based on XP
 - Discussion forum for language
+
+![alt text](<Screenshot (147)-1.png>)
