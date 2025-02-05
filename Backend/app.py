@@ -15,4 +15,4 @@ app.register_blueprint(course_bp)  # Course blueprint for course-related routes
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True )
